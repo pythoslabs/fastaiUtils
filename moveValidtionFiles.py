@@ -1,6 +1,10 @@
-#Moves all the images in the validation folder back to their corresponding classes in 
-# train folder 
 def moveValidtionFiles(root_path):
+    '''
+    Moves all the images in the validation folder 
+    back to their corresponding classes in train folder 
+    Note: Remember to run the 'create_validation_set' function after this
+    '''
+        
     root_path= Path(root_path)
     valid_folder = root_path/'valid'
     train_folder= root_path/'train'
