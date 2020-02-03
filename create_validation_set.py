@@ -8,6 +8,10 @@ def count_files(DIR):
 
 
 def create_validation_set(root_path,pct):
+    '''
+    Creates the validation folders and copies the files in the respective folders 
+    based on the folders present in the train folder
+    '''
     train_folder = Path(root_path/'train')
     validation_folder = Path(root_path/'valid')
     train_classes = os.listdir(train_folder)
