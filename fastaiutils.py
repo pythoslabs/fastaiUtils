@@ -1,6 +1,7 @@
 from pathlib import Path
 import os
 import shutil
+import random # to select random files from train folder
 
 def count_files(DIR):
     return len(os.listdir(Path(DIR)))
