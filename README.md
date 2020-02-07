@@ -1,6 +1,13 @@
 # fastaiUtils
 All the helper functions for fastai
 
+
+* _**fastaiutils.py**_  
+ All the functions in one file ( that you can import directly into your code ) 
+ import fastaiutils as futils
+
+#----------------------------
+
 These are util functions to be used along with fast.ai ( version 2 ) package
 
 * _**checkTrainValidInSync.py**_  
