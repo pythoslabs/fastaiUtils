@@ -8,7 +8,7 @@ All the helper functions for fastai
 
 #----------------------------
 
-These are util functions to be used along with fast.ai ( version 2 ) package
+These are util functions that are contained in the file compatible with fast.ai package (version 2)
 
 * _**checkTrainValidInSync.py**_  
  Checks if all the classes (folders) in train are also present in validation  ( Checks for only the folder structure - not the number of files )
